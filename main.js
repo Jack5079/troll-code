@@ -1,3 +1,4 @@
+/* eslint-env browser */
 const form = document.createElement('form')
 const input = document.createElement('input')
 input.required = true
