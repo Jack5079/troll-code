@@ -38,6 +38,9 @@ form.addEventListener('submit', async e => {
 
 Listen mf if you want to start counting go somewhere else!`
       break
+    case 666:
+      dialog.innerText = 'Ooohhh!!! Spooky satan number???? Very edgy my friend!!!!!! Me likey!!! I like when you write that number in every single place you go because it is spooky and scareyyy ohhhhhhh!!!'
+      break
     case 100087628818818818181818: // What the fuck
       dialog.innerText = `
         A Three-Generation Legacy
