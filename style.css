@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  position: relative;
+}
+
+p {
+  background: red;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: red 0 0 1em;
+  animation: show 5s forwards;
+}
+
+a {
+  color: skyblue;
+}
+
+@keyframes show {
+  from {
+    left: -100%;
+  }
+
+  25% {
+    left: 0;
+  }
+
+  75% {
+    left: 0;
+  }
+
+  to {
+    left: 100%;
+  }
+}
