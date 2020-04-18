@@ -33,6 +33,11 @@ form.addEventListener('submit', async e => {
     case 7851:
       dialog.innerText = '@Raymond Weiner'
       break
+    case 1234:
+      dialog.innerText = `5 6 7 8 9 10 11 12...
+
+Listen mf if you want to start counting go somewhere else!`
+      break
     case 100087628818818818181818: // What the fuck
       dialog.innerText = `
         A Three-Generation Legacy
